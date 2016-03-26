@@ -26,4 +26,4 @@ The program will then do the following:
 5. Finally, create an independent tidy data set with the average of each variable for each combination of activity and subject. At the end of the program, it will also clean up the temporary data set and variables created during the execution.
 
 The output from step 5 above is written to a file named 'avg_data2.txt' in the user's working directory. 
-To read the data, you should use the read.table() in R to load the data. 
+To read the data, you should use the read.table() in R to load and view the data. 
