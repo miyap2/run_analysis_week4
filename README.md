@@ -19,11 +19,11 @@ The program will then do the following:
 
 2. Extract only the measurements related to the mean and standard deviation for each measurement. There are total of 561 features (or measurement) listed. The program will filter the list and only get features with "-mean()" or "-std()".
 
-3. Assign descriptive names to the activities that describe the activity taking place (i.e., walking). The activity descrptive names are extracted from the activity_labels.txt.
+3. Assign descriptive names to the activities that describe the activity taking place (i.e., walking). The activity descriptive names are extracted from the activity_labels.txt.
 
 4. Appropriately label the variables, or columns, with descriptive variable names. This includes the "subject" and "activity". The "subject" is the person (represented by an ID) who performed the activities.
 
-5. Finally, create an independent tidy data set with the average of each variable for each combination of activity and subject. The program will also clean up the temporary data set and variables created during the execution.
+5. Finally, create an independent tidy data set with the average of each variable for each combination of activity and subject. At the end of the program, it will also clean up the temporary data set and variables created during the execution.
 
 The output from step 5 above is written to a file named 'avg_data2.txt' in the user's working directory. 
 To read the data, you should use the read.table() in R to load the data. 
